@@ -231,7 +231,11 @@ body{
 
 .cafw-nav {
     color: var(--cafw-dark-blue);
-    font-weight: 800;
+    font-weight: 600;
+}
+
+nav-link {
+    color: var(--cafw-dark-blue);
 }
 
 .cafl-cta-image {
