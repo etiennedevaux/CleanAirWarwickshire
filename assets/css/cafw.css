@@ -1,0 +1,522 @@
+/* Variables */
+:root{
+    --cssfileversion: "0024";
+    --cafw-light-blue: #85d1f5;
+    --cafw-dark-blue: #527cd2;
+}
+
+#map {
+    height: 720px;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    border: thin solid #333b;
+    }
+
+
+/* Global Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 30px;
+}
+
+#siteClipboard {
+    display: none;
+}
+
+.modal p {
+    font-size: 12pt;
+}
+
+.modal-dialog {
+    max-width: 800px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu-section {
+    display: none;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+
+.cafl-cta-summary{
+    color:#171717;
+    letter-spacing: 1px;
+    max-width: 1200px;
+    line-height: 1.2;
+}
+
+.cafl-cta-summary h1, .cafl-cta-infopage h1{
+    color:#79c;
+    letter-spacing: 2px;
+}
+
+.cafl-narrative {
+    text-align: center;
+    width: 100%;
+    font-size: 110%;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.cafl-cta-left {
+    margin: 0;
+    text-align: center;
+}
+
+.cafl-cta-left img{
+    width: 60%;
+    height: 500px;
+    max-width: 500px;
+    margin: 40px auto;
+    object-fit: cover;
+    border-radius: 3px;
+    animation-name: CTA-anim;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.cafl-cta-infopage{
+    padding: 5px 10% 0 5%;
+}
+
+.cafl-quote{
+    font-weight: 600;
+    color: #aaa;
+    font-style: oblique;
+    padding: 0 10px;
+    font-size: 95%;
+    line-height: 1.1;
+    letter-spacing: 2px;
+}
+
+.cafl-reference {
+    text-align: right;
+    margin: -15px 0 30px 0;
+}
+
+.cafl-reference a{
+    font-size: 10pt;
+}
+
+/* End of Global Styling */
+
+/* Site Header Space */
+
+.cafl-header-row{
+    overflow: visible;
+    height: 160px;
+  }
+
+  .cafl-header-row h1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+.cafl-header-logo {
+    height: 100%;
+    float: left;
+}
+
+.cafl-header-text {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 18pt;
+    padding: 0 30px;
+    margin: 0;
+    width: 80%;
+}
+
+.cafl-header-strapline {
+    height: 50%;
+    display: block;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 14pt;
+    padding: 20px 40px 40px 0;
+    text-align: right;
+    width: 100%;
+    font-style: oblique;
+    font-weight: 700;
+    color: #999;
+}
+/* End of Site Header Space */
+
+/* Navigation */
+.nav-item {
+    width: 15%;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+/*End of Navigation */
+
+/* CTA */
+
+.cafl-vision, .cafl-cta-options{
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5%;
+}
+
+.cafl-vision p, .cafl-cta-options p{
+    font-size: 16pt;
+}
+
+.cafl-vision li, .cafl-cta-options li{
+    margin-top: 5%;
+    font-size: 14pt;
+    list-style-type: circle;
+}
+
+.cafl-cta-options li{
+    list-style-type: none;
+    margin-bottom: 10%;
+    font-weight: 700;
+}
+
+.cafl-cta-centre {
+    display: flex;
+    align-items: center;
+}
+
+.cafl-cta-image {
+    width: 80%;
+    max-height: 500px;
+    max-width: 600px;
+    margin: 10px auto;
+    object-fit: cover;
+    border-radius: 3px;
+    animation-name: CTA-anim;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    padding: 5%;
+    
+ }
+
+.cafl-cta-options a{
+    color: #4561cc;
+    padding-top: 10px;
+}
+
+.cafl-vision-footnote {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    font-size: 10pt;
+    letter-spacing: normal;
+}
+
+.cafl-cta-headline {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    font-size: 14pt;
+}
+
+/* End of CTA */
+
+/* Improve Our Town */
+
+#cafl-goactivemap {
+    margin: 30px;
+    width: 80%;
+    clear: left;
+    border: thin solid #333b;
+}
+
+.cafl-improve-dropdown {
+    margin: 0 0 20px 30px;
+}
+
+.cafl-improve-dropdown button{
+    font-size: 12pt;
+    border: none;
+    background-color: #ffffff00;
+    cursor: pointer;
+}
+
+.cafl-improve-dropdown p, .cafl-improve-dropdown ul{
+    margin-left: 20px;
+}
+
+.cafl-improve-detail {
+    display: none;
+}
+
+.cafl-improve-detail li{
+    font-size: 10pt;
+    margin-top: 3px;
+}
+
+.cafl-improve-dropdown h1{
+    font-size: 12pt;
+}
+
+.cafl-improve-dropdown button.cafl-collapse{
+    display: none;
+}
+
+
+/* End of Improve Our Town */
+
+
+/* Gallery */
+#gallery{
+    padding: 0 0 20px;
+    margin-top: 20px;
+}
+
+#cafl-gallery{
+    clear: both;
+    column-count: 5;
+    column-gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.cafl-gallery-item{
+    width: 100%;
+    border: 1px solid #555;
+    page-break-inside: avoid;
+}
+
+#cafl-gallery img{
+    width: 100%;
+}
+
+.cafl-gallery-caption{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    background-color: lightgray;
+    padding: 1px;
+}
+
+#cafl-gallery iframe{
+    width: 100%;
+    zoom: 0.8;
+}
+
+#cafl-gallery figure{
+    break-inside: avoid;
+    width: 100%;
+    margin: 0px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.cafl-gallery-caption p{
+color: #222;
+margin: 1px;
+font-size: 10pt;
+line-height: 1.1;
+}
+
+/* End of Gallery */
+
+/* Who We Are Page */
+.cafl-sg-member {
+    margin: 5px 0 2px 10px;
+    font-weight: 600;
+}
+
+.cafl-sg-portfolio {
+    margin: 2px 0 2px 15px;
+    font-size: 95%;
+    font-style: italic;
+}
+
+.cafl-sg-bio {
+    margin: 2px 0 5px 10px;
+    font-size: 90%;
+    line-height: 1.1;
+}
+
+#who-we-are h2{
+    font-size: 14pt;
+    margin: 20px 0 0 0;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #79c;
+}
+
+/* End of Who We Are Page */
+
+/* Resources Page */
+.cafl-btn-resources {
+    height: 30px;
+    background-color: #ffffff00;
+    color: #007bff;
+    text-decoration: none;
+    border-color: #ffffff00;
+    border-width: 0px;
+    margin: 0;
+}
+
+.cafl-btn-resources.focus, .cafl-btn-resources:focus, .cafl-btn-resources:hover {
+    box-shadow: 0 0 0 0.0rem rgb(0 123 255 / 50%);
+    text-decoration: underline;
+}
+
+#resources h3 {
+    font-size: 12pt;
+    font-variant: small-caps;
+}
+
+#resources li {
+    margin-top: 20px;
+}
+
+#resources ul {
+    margin-top: 20px;
+}
+
+#resources a {
+    margin-left: 10px;
+}
+
+/* End of Resources Page */
+
+
+/* Contact Page */
+#contact h3{
+    margin: 50px;
+    font-size: 16pt;
+}
+/* End of Contact Page */
+
+/* Footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #dddddddd;
+    width: 100%;
+    text-align: center;
+    height: 80px;
+}
+
+.cafl-footer-link{
+    float: left;
+    width: 16.25%;
+    margin: 0px auto 0px auto;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.cafl-footer-bottom{
+    float: left;
+    font-size: 8pt;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.cafl-footer-top{
+    font-size: 10pt;
+    width: 100%;
+    text-align: center;
+}
+
+#CSSSerNo::before{
+    content: var(--cssfileversion);
+  }
+/* End of Footer */
+
+
+
+
+/* Animation for the front page call to action. */
+@keyframes CTA-anim{
+    from{
+        transform: scale(1);
+        opacity: 0.7;
+        /* filter: blur(10px); */
+      }
+      to{
+        transform: scale(1.1);
+        opacity: 1;
+        /* filter: blur(1px); */
+      }
+
+}
+
+/*MEDIA QUERIES*/
+  /* For extra-wide 4k screens */
+  @media screen and (min-width: 2400px){
+    /*Adjust Gallery Columns*/
+    #cafl-gallery {
+    column-count: 7;
+    }
+  }
+/* Equivalent to Bootstrap Extra Extra Large */
+    @media screen and (min-width: 2000px){
+        /*Adjust Gallery Columns*/
+        #cafl-gallery {
+        column-count: 6;
+        }
+    }
+
+/* Equivalent to Bootstrap Extra Large */
+    @media screen and (max-width: 1999px){
+        /*Adjust Gallery Columns*/
+        #cafl-gallery {
+            column-count: 5;
+        }
+    }
+
+/* Equivalent to Bootstrap Large */
+  @media screen and (max-width: 1199px){
+    /*Adjust Gallery Columns*/
+    #cafl-gallery {
+    column-count: 4;
+    }
+
+    
+  }
+
+/* Equivalent to Bootstrap Medium */
+@media screen and (max-width: 991px){
+
+}
+
+/* Equivalent to Bootstrap Small */
+@media screen and (max-width: 767px){
+    #cafl-gallery {
+        column-count: 3;
+        }
+
+
+
+}
+/* Equivalent to Bootstrap X-Small */
+@media screen and (max-width: 575px){
+#cafl-gallery {
+    column-count: 2;
+  }
+
+
+
+
+}
+/* Additional breakpoint for timeline display */
+@media screen and (max-width: 600px) {
+
+}
