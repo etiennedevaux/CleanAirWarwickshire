@@ -3,6 +3,7 @@
     --cssfileversion: "0024";
     --cafw-light-blue: #85d1f5;
     --cafw-dark-blue: #527cd2;
+    --cafw-white: #fff;
 }
 
 #map {
@@ -131,14 +132,24 @@ body{
     border: 1px solid var(--cafw-light-blue)
     display: flex;
     flex-flow: column;
+    margin: 5px;
+    padding: 0;
 }
 
 .cafw-header-figcaption {
-    background-color: var(--cafw-light-blue);
+    background-color: var(--cafw-white);
     color: var(--cafw-dark-blue);
-    font-family: arial-black;
+    font-family: "arial-black";
     padding: 3px;
     text-align: center;
+}
+
+.cafw-header-figcaption h2 {
+    font-size: 14pt;
+}
+
+.cafw-header-figcaption h3 {
+    font-size: 14pt;
 }
 
 .cafw-header-logo {
