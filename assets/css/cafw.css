@@ -153,7 +153,7 @@ body{
 
 .cafw-header-figcaption h3 {
     font-size: 10pt;
-    letter-spacing: 1.05px;
+    letter-spacing: 1.02px;
 }
 
 .cafw-header-logo {
@@ -162,7 +162,7 @@ body{
     margin: 0;
 }
 
-.cafl-header-text {
+.cafw-header-text {
     height: 50%;
     display: flex;
     align-items: center;
@@ -171,6 +171,7 @@ body{
     padding: 0 30px;
     margin: 0;
     width: 80%;
+    color: var(--cafw-dark-blue)
 }
 
 .cafl-header-strapline {
@@ -200,24 +201,24 @@ body{
 
 /* CTA */
 
-.cafl-vision, .cafl-cta-options{
+.cafl-vision, .cafw-cta-options{
     letter-spacing: 2px;
     display: flex;
     flex-direction: column;
     padding: 3% 5%;
 }
 
-.cafl-vision p, .cafl-cta-options p{
+.cafl-vision p, .cafw-cta-options p{
     font-size: 16pt;
 }
 
-.cafl-vision li, .cafl-cta-options li{
+.cafl-vision li, .cafw-cta-options li{
     margin-top: 5%;
     font-size: 14pt;
     list-style-type: circle;
 }
 
-.cafl-cta-options li{
+.cafw-cta-options li{
     list-style-type: none;
     margin-bottom: 10%;
     font-weight: 700;
@@ -242,8 +243,8 @@ body{
     
  }
 
-.cafl-cta-options a{
-    color: #4561cc;
+.cafw-cta-options a{
+    color: var(--cafw-dark-blue);
     padding-top: 10px;
 }
 
