@@ -133,23 +133,25 @@ body{
     display: flex;
     flex-flow: column;
     margin: 5px;
-    padding: 5px;
+    padding: 0 0 50px 0;
 }
 
 .cafw-header-figcaption {
     background-color: var(--cafw-white);
     color: var(--cafw-dark-blue);
-    font-family: "arial-black";
+    font-family: "arial black";
     padding: 3px;
     text-align: center;
 }
 
 .cafw-header-figcaption h2 {
     font-size: 14pt;
+    letter-spacing: 1.5px;
+    margin: 0;
 }
 
 .cafw-header-figcaption h3 {
-    font-size: 14pt;
+    font-size: 10pt;
 }
 
 .cafw-header-logo {
