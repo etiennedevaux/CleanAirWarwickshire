@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pump Room Gardens to Station</name>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Pump Room Gardens to Station</name>
+      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -1.53633,52.28784,0
+          -1.5364,52.28771,0
+          -1.53644,52.28764,0
+          -1.53652,52.28747,0
+          -1.53656,52.28739,0
+          -1.53667,52.28725,0
+          -1.5368,52.28715,0
+          -1.537,52.28694,0
+          -1.53699,52.2869,0
+          -1.53697,52.28688,0
+          -1.53693,52.28684,0
+          -1.53683,52.28674,0
+          -1.53675,52.28661,0
+          -1.53667,52.28648,0
+          -1.53658,52.28636,0
+          -1.53646,52.28622,0
+          -1.53644,52.2862,0
+          -1.53635,52.28615,0
+          -1.53628,52.28609,0
+          -1.53625,52.28605,0
+          -1.53625,52.28603,0
+          -1.53625,52.28602,0
+          -1.53627,52.28597,0
+          -1.53632,52.28588,0
+          -1.53636,52.28574,0
+          -1.5365,52.28551,0
+          -1.53655,52.28544,0
+          -1.53663,52.28535,0
+          -1.53666,52.28532,0
+          -1.53665,52.2853,0
+          -1.53662,52.28525,0
+          -1.53652,52.2852,0
+          -1.53645,52.28518,0
+          -1.53637,52.28514,0
+          -1.53628,52.28511,0
+          -1.53609,52.2851,0
+          -1.53599,52.2851,0
+          -1.53592,52.2851,0
+          -1.5357,52.28509,0
+          -1.53569,52.28509,0
+          -1.53553,52.28508,0
+          -1.53542,52.28506,0
+          -1.53542,52.28503,0
+          -1.53543,52.28496,0
+          -1.53544,52.28489,0
+          -1.53544,52.28479,0
+          -1.53544,52.28474,0
+          -1.53544,52.2847,0
+          -1.53544,52.28467,0
+          -1.53544,52.28459,0
+          -1.53545,52.28455,0
+          -1.53545,52.28451,0
+          -1.53546,52.28444,0
+          -1.53537,52.28444,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>9 Dormer Pl, Leamington Spa CV32 5AA, UK</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.5363326,52.2878428,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leamington Spa, Old Warwick Rd, Leamington Spa CV31 3NS, UK</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.5353737,52.2844369,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Route_07</name>
+    <Style id="line-0288D1-4488-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.488</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-4488-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6.732</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-4488-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-4488-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-4488-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Line 1</name>
+      <styleUrl>#line-0288D1-4488-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -1.5486038,52.2862867,0
+          -1.5488613,52.2861291,0
+          -1.5490544,52.2861291,0
+          -1.5492261,52.286116,0
+          -1.5494407,52.2858929,0
+          -1.5501488,52.2855122,0
+          -1.5504492,52.2853284,0
+          -1.5533889,52.2849478,0
+          -1.5566075,52.2847378,0
+          -1.5608562,52.2865754,0
+          -1.5640963,52.284344,0
+          -1.5645683,52.2841602,0
+          -1.5650619,52.2842258,0
+          -1.5653837,52.2844621,0
+          -1.5658773,52.284554,0
+          -1.5661133,52.284554,0
+          -1.5668858,52.2846721,0
+          -1.5673793,52.2846196,0
+          -1.567787,52.2845277,0
+          -1.5715421,52.2831232,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Route_05</name>
+    <Style id="line-C2185B-4681-nodesc-normal">
+      <LineStyle>
+        <color>ff0018ff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-C2185B-4681-nodesc-highlight">
+      <LineStyle>
+        <color>ff5b18ff</color>
+        <width>7.0215</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-C2185B-4681-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-C2185B-4681-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-C2185B-4681-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Line 5</name>
+      <styleUrl>#line-C2185B-4681-nodesc-normal</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -1.57521,52.2851853,0
+          -1.5781068,52.2846012,0
+          -1.5797805,52.2840236,0
+          -1.5814542,52.2832622,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Route_06</name>
+    <Style id="line-0F9D58-5069-nodesc-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>5.069</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0F9D58-5069-nodesc-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>7.6035</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0F9D58-5069-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0F9D58-5069-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0F9D58-5069-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Line 1</name>
+      <styleUrl>#line-0F9D58-5069-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -1.5272736,52.290009,0
+          -1.5233683,52.2905733,0
+          -1.5229606,52.2905865,0
+          -1.5223383,52.2905733,0
+          -1.5190982,52.290219,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
