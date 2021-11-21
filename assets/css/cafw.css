@@ -129,18 +129,14 @@ body{
     height: 100%;
     float: left;
     border: 1px solid var(--cafw-light-blue)
-    border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
 }
 
 .cafw-header-figcaption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
+    background-color: var(--cafw-light-blue);
+    color: var(--cafw-dark-blue);
+    font-family: arial-black;
     padding: 3px;
     text-align: center;
 }
