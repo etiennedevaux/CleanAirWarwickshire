@@ -229,7 +229,7 @@ body{
     align-items: center;
 }
 
-cafw-nav {
+.cafw-nav {
     color: var(--cafw-dark-blue);
 }
 
