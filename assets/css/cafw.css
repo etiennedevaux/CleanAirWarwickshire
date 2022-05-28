@@ -2,7 +2,7 @@
 :root{
     --cssfileversion: "0024";
     --cafw-light-blue: #85d1f5;
-    --cafw-dark-blue: #527cd2;
+    --cafw-dark-blue: #325191;
     --cafw-white: #fff;
 }
 
@@ -44,6 +44,13 @@ body{
 }
 .menu-section {
     display: none;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+
+
+.cafw-menu-section {
+    margin-top: 50px;
     margin-bottom: 80px;
     padding: 20px;
 }
@@ -113,12 +120,12 @@ body{
 
 /* Site Header Space */
 
-.cafl-header-row{
+.cafw-header-row{
     overflow: visible;
     height: 160px;
   }
 
-  .cafl-header-row h1{
+  .cafw-header-row h1{
     display: block;
     width: 100%;
     text-align: center;
@@ -129,11 +136,10 @@ body{
 .cafw-header-figure {
     height: 100%;
     float: left;
-    border: 3px solid var(--cafw-light-blue);
-    display: flex;
+        display: flex;
     flex-flow: column;
     margin: 0 10px 5px 10px;
-    padding: 0 0 50px 0;
+    padding: 0;
 }
 
 .cafw-header-figcaption {
@@ -174,7 +180,7 @@ body{
     color: var(--cafw-dark-blue)
 }
 
-.cafl-header-strapline {
+.cafw-header-strapline {
     height: 50%;
     display: block;
     align-items: center;
@@ -232,6 +238,13 @@ body{
 .cafw-nav {
     color: var(--cafw-dark-blue);
     font-weight: 600;
+    text-decoration: underline;
+}
+
+.cafw-nav-active {
+    color: var(--cafw-dark-blue);
+    font-weight: 900;
+    font-size: 120%;
 }
 
 nav-link {
@@ -327,7 +340,7 @@ nav-link {
     margin-top: 20px;
 }
 
-#cafl-gallery{
+#cafw-gallery{
     clear: both;
     column-count: 5;
     column-gap: 0;
@@ -335,17 +348,17 @@ nav-link {
     margin: 0;
 }
 
-.cafl-gallery-item{
+.cafw-gallery-item{
     width: 100%;
     border: 1px solid #555;
     page-break-inside: avoid;
 }
 
-#cafl-gallery img{
+#cafw-gallery img{
     width: 100%;
 }
 
-.cafl-gallery-caption{
+.cafw-gallery-caption{
     width: 100%;
     text-align: center;
     margin: 0;
@@ -353,12 +366,12 @@ nav-link {
     padding: 1px;
 }
 
-#cafl-gallery iframe{
+#cafw-gallery iframe{
     width: 100%;
     zoom: 0.8;
 }
 
-#cafl-gallery figure{
+#cafw-gallery figure{
     break-inside: avoid;
     width: 100%;
     margin: 0px;
@@ -366,7 +379,7 @@ nav-link {
     padding: 10px;
 }
 
-.cafl-gallery-caption p{
+.cafw-gallery-caption p{
 color: #222;
 margin: 1px;
 font-size: 10pt;
