@@ -1,5 +1,9 @@
 //* Global Variables *//
-   var jsfileversion = "0021";
+   var htmlfileversion="0010"
+   var jsfileversion = "0024";
+   var cssfileversion="0041";
+   var lastupdate="28/5/2022";
+   var creators="Created by Stephen Clarke, Laura Quirke on behalf of Clean Air Warwickshire";
    var map;
    var src = [ 'https://etiennedevaux.github.io/CAfL/assets/kml/CycleRoutes.kml',
                'https://etiennedevaux.github.io/CAfL/assets/kml/CycleRoutes2.kml',
@@ -9,11 +13,14 @@
 //* Function aiming to consolidate onload scripts into a single place, keeping the HTML cleaner *//
 function domLoaded() {
 
-   //* Add Event Listeners *//
-   window.addEventListener("hashchange",function (event) {
-      showMenuComponent(location.hash.substring(1,location.hash.length-5));
-   })
+   document.getElementById('JSSerNo').textContent = jsfileversion;
+   document.getElementById('CSSSerNo').textContent = cssfileversion;
+   document.getElementById('LastUpdated').textContent = lastupdate;
+   document.getElementById('CreatedBy').textContent = creators;
+   document.getElementById('HTMLVersion').textContent = htmlfileversion;
 
+   //* Add Event Listeners *//
+  
    var clapse = document.getElementsByClassName("cafl-collapse");
 
    for (var i=0; i < clapse.length; i++) {
@@ -45,10 +52,9 @@ function showMenuComponent(sect) {
       menuElements[i].style.textDecoration = '';
    }
 
-   var y = document.getElementById(sect + '-button');
-   y.style.textDecoration = 'underline';
+  
    window.history.pushState("", "Clean Air", "#" + sect + "-link");
-   document.getElementById('JSSerNo').textContent = '.' + jsfileversion;
+   
  }
 
 

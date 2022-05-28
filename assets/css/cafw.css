@@ -1,6 +1,8 @@
 /* Variables */
 :root{
-    --cssfileversion: "0024";
+    --lastupdate:"28/05/2022";
+    --cssfileversion: "0025";
+    --jsfileversion: "0040";
     --cafw-light-blue: #85d1f5;
     --cafw-dark-blue: #325191;
     --cafw-white: #fff;
@@ -245,6 +247,7 @@ body{
     color: var(--cafw-dark-blue);
     font-weight: 900;
     font-size: 120%;
+    text-decoration: none;
 }
 
 nav-link {

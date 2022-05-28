@@ -30,7 +30,7 @@
   <title>Clean Air Warwickshire</title>
 </head>
 
-<body>
+<body onload="domLoaded()">
 
   <!-- Start of Header-->
   <div class="cafw-header-row">
@@ -1105,29 +1105,29 @@
   </div>
   <!-- End of Resources Page-->
 
-  <!-- Start of Footer-->
-  <footer>
-    <div class="cafl-footer-top">
-      <div class="cafl-footer-link"><a  id="resources-button" class="cafw-nav">Resources</a></div>
-      <div class="cafl-footer-link"><a href="#who-we-are-link" id="who-we-are-button" class="cafw-nav">Who We Are</a>
-      </div>
-      <div class="cafl-footer-link"><a href="#what-we-do-link" id="what-we-do-button" class="cafw-nav">What We Do</a>
-      </div>
-      <div class="cafl-footer-link"><a href="#contact-link" id="contact-button" class="cafw-nav">Contact Us</a></div>
-      <div class="cafl-footer-link"><a href="https://www.facebook.com/CleanAirforLeamingtonSpa/" id="facebook-button"
-          target="_blank" class="cafw-nav"><i class="fab fa-facebook"></i> Facebook</a></div>
-      <div class="cafl-footer-link"><a href="https://twitter.com/AirLeamington" id="twitter-button" target="_blank"
-          class="cafw-nav"><i class="fab fa-twitter"></i> Twitter</a></div>
+ <!-- Start of Footer-->
+ <footer>
+  <div class="cafl-footer-top">
+    <div class="cafl-footer-link"><a href="resources.html" id="resources-button" class="cafw-nav">Resources</a></div>
+    <div class="cafl-footer-link"><a href="who_we_are.html" id="who-we-are-button" class="cafw-nav">Who We Are</a>
+    </div>
+    <div class="cafl-footer-link"><a href="#what-we-do-link" id="what-we-do-button" class="cafw-nav">What We Do</a>
+    </div>
+    <div class="cafl-footer-link"><a href="#contact-link" id="contact-button" class="cafw-nav">Contact Us</a></div>
+    <div class="cafl-footer-link"><a href="https://www.facebook.com/CleanAirforLeamingtonSpa/" id="facebook-button"
+        target="_blank" class="cafw-nav"><i class="fab fa-facebook"></i> Facebook</a></div>
+    <div class="cafl-footer-link"><a href="https://twitter.com/AirLeamington" id="twitter-button" target="_blank"
+        class="cafw-nav"><i class="fab fa-twitter"></i> Twitter</a></div>
 
-    </div>
-    <div class="cafl-footer-bottom">
-      <p class='footer-sm'>Created by Stephen Clarke on behalf of Clean Air for Leamington Spa
-        ||&nbsp;Last update on 08/09/2021||&nbsp;<span class='footer-sm' id='HTMLSerNo'>0039</span>.<span
-          class='footer-sm' id='CSSSerNo'></span><span class='footer-sm' id='JSSerNo'></span> || For Enquiries Please
-        Email: <a href="mailto:enquiries@cleanairforleamingtonspa.org.uk">enquiries@cleanairforleamingtonspa.org.uk</a></p>
-    </div>
-  </footer>
-  <!-- End of Footer-->
+  </div>
+  <div class="cafl-footer-bottom">
+    <p class='footer-sm'><span id="CreatedBy"></span>
+      ||&nbsp;Last update <span id="LastUpdated"></span>||&nbsp;<span class='footer-sm' id='HTMLVersion'></span>.<span
+        class='footer-sm' id='CSSSerNo'></span>.<span class='footer-sm' id='JSSerNo'></span> || For Enquiries Please
+      Email: <a href="mailto:enquiries@cleanairforleamingtonspa.org.uk">enquiries@cleanairforleamingtonspa.org.uk</a></p>
+  </div>
+</footer>
+<!-- End of Footer-->
 
   <!-- Site Clipboard-->
   <textarea id="siteClipboard"></textarea>
