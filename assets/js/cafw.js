@@ -1,7 +1,7 @@
 //* Global Variables *//
-   var htmlfileversion="0011"
-   var jsfileversion = "0025";
-   var cssfileversion="0041";
+   var htmlfileversion="0012"
+   var jsfileversion = "0026";
+   var cssfileversion="0042";
    var lastupdate="29/5/2022";
    var creators="Created by Stephen Clarke, Laura Quirke on behalf of Clean Air Warwickshire";
    var map;
