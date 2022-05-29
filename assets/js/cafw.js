@@ -1,8 +1,8 @@
 //* Global Variables *//
-   var htmlfileversion="0010"
-   var jsfileversion = "0024";
+   var htmlfileversion="0011"
+   var jsfileversion = "0025";
    var cssfileversion="0041";
-   var lastupdate="28/5/2022";
+   var lastupdate="29/5/2022";
    var creators="Created by Stephen Clarke, Laura Quirke on behalf of Clean Air Warwickshire";
    var map;
    var src = [ 'https://etiennedevaux.github.io/CAfL/assets/kml/CycleRoutes.kml',
