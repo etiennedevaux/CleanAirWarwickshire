@@ -21,13 +21,13 @@ function domLoaded() {
 
    //* Add Event Listeners *//
   
-   var clapse = document.getElementsByClassName("cafl-collapse");
+   var clapse = document.getElementsByClassName("cafw-collapse");
 
    for (var i=0; i < clapse.length; i++) {
       clapse[i].addEventListener("click",function () {collapseText(this.parentElement.parentElement.id);});
    }
 
-   var xpand = document.getElementsByClassName("cafl-expand");
+   var xpand = document.getElementsByClassName("cafw-expand");
 
    for (var i=0; i < xpand.length; i++) {
       xpand[i].addEventListener("click",function () {expandText(this.parentElement.parentElement.id);});
@@ -46,7 +46,7 @@ function showMenuComponent(sect) {
    
    var x = document.getElementById(sect);
    x.style.display = 'block';
-   var menuElements = document.getElementsByClassName('cafl-nav');
+   var menuElements = document.getElementsByClassName('cafw-nav');
 
    for (i = 0; i < menuElements.length; i++) {
       menuElements[i].style.textDecoration = '';
@@ -66,20 +66,20 @@ function helpVideo() {
 }
 
 function collapseText(sectID) {
-   var paras=document.querySelectorAll("#" + sectID + "  .cafl-improve-detail")
+   var paras=document.querySelectorAll("#" + sectID + "  .cafw-improve-detail")
    
    for (var j=0; j < paras.length; j++) {paras[j].style.display="none";}
-   document.querySelectorAll("#" + sectID + " button.cafl-collapse")[0].style.display="none";
-   document.querySelectorAll("#" + sectID + " button.cafl-expand")[0].style.display="inline";
+   document.querySelectorAll("#" + sectID + " button.cafw-collapse")[0].style.display="none";
+   document.querySelectorAll("#" + sectID + " button.cafw-expand")[0].style.display="inline";
 
 }
 
 function expandText(sectID) {
-   var paras=document.querySelectorAll("#" + sectID + "  .cafl-improve-detail")
+   var paras=document.querySelectorAll("#" + sectID + "  .cafw-improve-detail")
 
    for (var j=0; j < paras.length; j++) {paras[j].style.display="block";}
-   document.querySelectorAll("#" + sectID + " button.cafl-collapse")[0].style.display="inline";
-   document.querySelectorAll("#" + sectID + " button.cafl-expand")[0].style.display="none";
+   document.querySelectorAll("#" + sectID + " button.cafw-collapse")[0].style.display="inline";
+   document.querySelectorAll("#" + sectID + " button.cafw-expand")[0].style.display="none";
 
 }
 

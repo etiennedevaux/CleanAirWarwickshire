@@ -57,19 +57,19 @@ body{
     padding: 20px;
 }
 
-.cafl-cta-summary{
+.cafw-cta-summary{
     color:#171717;
     letter-spacing: 1px;
     max-width: 1200px;
     line-height: 1.2;
 }
 
-.cafl-cta-summary h1, .cafl-cta-infopage h1{
+.cafw-cta-summary h1, .cafw-cta-infopage h1{
     color:#79c;
     letter-spacing: 2px;
 }
 
-.cafl-narrative {
+.cafw-narrative {
     text-align: center;
     width: 100%;
     font-size: 110%;
@@ -78,12 +78,12 @@ body{
     padding: 5px;
 }
 
-.cafl-cta-left {
+.cafw-cta-left {
     margin: 0;
     text-align: center;
 }
 
-.cafl-cta-left img{
+.cafw-cta-left img{
     width: 60%;
     height: 500px;
     max-width: 500px;
@@ -95,11 +95,11 @@ body{
     animation-fill-mode: forwards;
 }
 
-.cafl-cta-infopage{
+.cafw-cta-infopage{
     padding: 5px 10% 0 5%;
 }
 
-.cafl-quote{
+.cafw-quote{
     font-weight: 600;
     color: #aaa;
     font-style: oblique;
@@ -109,12 +109,12 @@ body{
     letter-spacing: 2px;
 }
 
-.cafl-reference {
+.cafw-reference {
     text-align: right;
     margin: -15px 0 30px 0;
 }
 
-.cafl-reference a{
+.cafw-reference a{
     font-size: 10pt;
 }
 
@@ -209,18 +209,18 @@ body{
 
 /* CTA */
 
-.cafl-vision, .cafw-cta-options{
+.cafw-vision, .cafw-cta-options{
     letter-spacing: 2px;
     display: flex;
     flex-direction: column;
     padding: 3% 5%;
 }
 
-.cafl-vision p, .cafw-cta-options p{
+.cafw-vision p, .cafw-cta-options p{
     font-size: 16pt;
 }
 
-.cafl-vision li, .cafw-cta-options li{
+.cafw-vision li, .cafw-cta-options li{
     margin-top: 5%;
     font-size: 14pt;
     list-style-type: circle;
@@ -232,7 +232,7 @@ body{
     font-weight: 700;
 }
 
-.cafl-cta-centre {
+.cafw-cta-centre {
     display: flex;
     align-items: center;
 }
@@ -254,7 +254,7 @@ nav-link {
     color: var(--cafw-dark-blue);
 }
 
-.cafl-cta-image {
+.cafw-cta-image {
     width: 80%;
     max-height: 500px;
     max-width: 600px;
@@ -273,7 +273,7 @@ nav-link {
     padding-top: 10px;
 }
 
-.cafl-vision-footnote {
+.cafw-vision-footnote {
     position: relative;
     bottom: 0;
     right: 0;
@@ -282,7 +282,7 @@ nav-link {
     letter-spacing: normal;
 }
 
-.cafl-cta-headline {
+.cafw-cta-headline {
     width: 100%;
     height: 60px;
     text-align: center;
@@ -294,42 +294,42 @@ nav-link {
 
 /* Improve Our Town */
 
-#cafl-goactivemap {
+#cafw-goactivemap {
     margin: 30px;
     width: 80%;
     clear: left;
     border: thin solid #333b;
 }
 
-.cafl-improve-dropdown {
+.cafw-improve-dropdown {
     margin: 0 0 20px 30px;
 }
 
-.cafl-improve-dropdown button{
+.cafw-improve-dropdown button{
     font-size: 12pt;
     border: none;
     background-color: #ffffff00;
     cursor: pointer;
 }
 
-.cafl-improve-dropdown p, .cafl-improve-dropdown ul{
+.cafw-improve-dropdown p, .cafw-improve-dropdown ul{
     margin-left: 20px;
 }
 
-.cafl-improve-detail {
+.cafw-improve-detail {
     display: none;
 }
 
-.cafl-improve-detail li{
+.cafw-improve-detail li{
     font-size: 10pt;
     margin-top: 3px;
 }
 
-.cafl-improve-dropdown h1{
+.cafw-improve-dropdown h1{
     font-size: 12pt;
 }
 
-.cafl-improve-dropdown button.cafl-collapse{
+.cafw-improve-dropdown button.cafw-collapse{
     display: none;
 }
 
@@ -392,18 +392,18 @@ line-height: 1.1;
 /* End of Gallery */
 
 /* Who We Are Page */
-.cafl-sg-member {
+.cafw-sg-member {
     margin: 5px 0 2px 10px;
     font-weight: 600;
 }
 
-.cafl-sg-portfolio {
+.cafw-sg-portfolio {
     margin: 2px 0 2px 15px;
     font-size: 95%;
     font-style: italic;
 }
 
-.cafl-sg-bio {
+.cafw-sg-bio {
     margin: 2px 0 5px 10px;
     font-size: 90%;
     line-height: 1.1;
@@ -420,7 +420,7 @@ line-height: 1.1;
 /* End of Who We Are Page */
 
 /* Resources Page */
-.cafl-btn-resources {
+.cafw-btn-resources {
     height: 30px;
     background-color: #ffffff00;
     color: #007bff;
@@ -430,7 +430,7 @@ line-height: 1.1;
     margin: 0;
 }
 
-.cafl-btn-resources.focus, .cafl-btn-resources:focus, .cafl-btn-resources:hover {
+.cafw-btn-resources.focus, .cafw-btn-resources:focus, .cafw-btn-resources:hover {
     box-shadow: 0 0 0 0.0rem rgb(0 123 255 / 50%);
     text-decoration: underline;
 }
@@ -472,7 +472,7 @@ footer{
     height: 80px;
 }
 
-.cafl-footer-link{
+.cafw-footer-link{
     float: left;
     width: 16.25%;
     margin: 0px auto 0px auto;
@@ -480,14 +480,35 @@ footer{
     padding-top: 5px;
 }
 
-.cafl-footer-bottom{
+.cafw-footer-bottom{
     float: left;
     font-size: 8pt;
     width: 100%;
     padding-top: 20px;
 }
 
-.cafl-footer-top{
+.cafw-footer-top{
+    font-size: 10pt;
+    width: 100%;
+    text-align: center;
+}
+
+.cafw-footer-link{
+    float: left;
+    width: 16.25%;
+    margin: 0px auto 0px auto;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.cafw-footer-bottom{
+    float: left;
+    font-size: 8pt;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.cafw-footer-top{
     font-size: 10pt;
     width: 100%;
     text-align: center;
@@ -520,14 +541,14 @@ footer{
   /* For extra-wide 4k screens */
   @media screen and (min-width: 2400px){
     /*Adjust Gallery Columns*/
-    #cafl-gallery {
+    #cafw-gallery {
     column-count: 7;
     }
   }
 /* Equivalent to Bootstrap Extra Extra Large */
     @media screen and (min-width: 2000px){
         /*Adjust Gallery Columns*/
-        #cafl-gallery {
+        #cafw-gallery {
         column-count: 6;
         }
     }
@@ -535,7 +556,7 @@ footer{
 /* Equivalent to Bootstrap Extra Large */
     @media screen and (max-width: 1999px){
         /*Adjust Gallery Columns*/
-        #cafl-gallery {
+        #cafw-gallery {
             column-count: 5;
         }
     }
@@ -543,7 +564,7 @@ footer{
 /* Equivalent to Bootstrap Large */
   @media screen and (max-width: 1199px){
     /*Adjust Gallery Columns*/
-    #cafl-gallery {
+    #cafw-gallery {
     column-count: 4;
     }
 
@@ -557,7 +578,7 @@ footer{
 
 /* Equivalent to Bootstrap Small */
 @media screen and (max-width: 767px){
-    #cafl-gallery {
+    #cafw-gallery {
         column-count: 3;
         }
 
@@ -566,7 +587,7 @@ footer{
 }
 /* Equivalent to Bootstrap X-Small */
 @media screen and (max-width: 575px){
-#cafl-gallery {
+#cafw-gallery {
     column-count: 2;
   }
 
