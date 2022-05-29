@@ -338,6 +338,11 @@ nav-link {
 
 
 /* Gallery */
+#clean-air-day_2022 {
+  object-fit: contain;
+   
+}
+
 #gallery{
     padding: 0 0 20px;
     margin-top: 20px;
